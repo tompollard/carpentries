@@ -17,7 +17,7 @@ From the command line, install the package with pip:
 In a Python interpreter:
 
 ```
-
+from carpentries import values
 ```
 
 Or from the command line:
