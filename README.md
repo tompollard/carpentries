@@ -9,7 +9,7 @@ Trial run for a Python package for The Carpentries.
 From the command line, install the package with pip:
 
 ```
->> pip install carpentries
+>> pip install thecarpentries
 ```
 
 ## Usage
@@ -17,11 +17,11 @@ From the command line, install the package with pip:
 In a Python interpreter:
 
 ```
-
+from thecarpentries import values
 ```
 
 Or from the command line:
 
 ```
-carpentries
+thecarpentries
 ```

@@ -16,7 +16,7 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 # Fields marked as "Optional" may be commented out.
 
 setup(
-    name='carpentries',  # Required
+    name='thecarpentries',  # Required
 
     # Versions should comply with PEP 440:
     # https://www.python.org/dev/peps/pep-0440/
@@ -108,7 +108,7 @@ setup(
     #   py_modules=["my_module"],
     #
     # packages=find_packages(where='carpentries'),  # Required
-    packages=['carpentries'],
+    packages=['thecarpentries'],
 
     # Specify which Python versions you support. In contrast to the
     # 'Programming Language' classifiers above, 'pip install' will check this
@@ -159,7 +159,7 @@ setup(
     # executes the function `main` from this package when invoked:
     entry_points={  # Optional
         'console_scripts': [
-            'carpentries=carpentries.__main__:main',
+            'thecarpentries=thecarpentries.__main__:main',
         ],
     },
 

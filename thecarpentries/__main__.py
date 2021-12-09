@@ -8,7 +8,7 @@ def main():
     parser = argparse.ArgumentParser(description="""
     A toolkit for The Carpentries.
     """)
-    from carpentries import values
+    from thecarpentries import values
 
 
 if __name__ == "__main__":

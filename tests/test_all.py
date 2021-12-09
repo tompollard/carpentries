@@ -1,4 +1,4 @@
-from carpentries import values
+from thecarpentries import values
 
 
 def test_our_values():
